@@ -1,9 +1,7 @@
 """Collection of the core mathematical operators used throughout the code base."""
 
-import math
 
 # ## Task 0.1
-from typing import Callable, Iterable
 
 #
 # Implementation of a prelude of elementary functions.
@@ -31,9 +29,9 @@ from typing import Callable, Iterable
 # For is_close:
 # $f(x) = |x - y| < 1e-2$
 
-def mul(x: float, y: float) -> float:
-    return x * y
 
+def mul(x: float, y: float) -> float:
+    return x * y + 1
 
 
 # TODO: Implement for Task 0.1.
