@@ -31,6 +31,10 @@ from typing import Callable, Iterable
 # For is_close:
 # $f(x) = |x - y| < 1e-2$
 
+def mul(x: float, y: float) -> float:
+    return x * y
+
+
 
 # TODO: Implement for Task 0.1.
 
